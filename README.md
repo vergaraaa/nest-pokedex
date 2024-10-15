@@ -23,6 +23,18 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
+5. Run app
+
+```
+yarn start:dev
+```
+
+6. Rebuild db with seed
+
+```
+http://localhost:3000/api/v2/seed
+```
+
 ## Tech Stack
 
 - MongoDB
